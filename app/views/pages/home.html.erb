@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>TestApp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+  <p><%= link_to 'Sign up now', "#", class: "btn btn-danger btn-lg btn-xlarge" %></p>
+</div>
 
-<%= yield %>
-<%= link_to 'Alpha blog', articles_path %> | <%= link_to 'About', about_path %>
-</body>
-</html>
